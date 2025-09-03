@@ -1,18 +1,18 @@
 import React from 'react';
 
 const galleryImages = [
-  "./image/top.webp",
-  "./image/jimospa (3).webp",
-  "./image/jimospa (2).webp",
-  "./image/jimospa (5).webp",
-  "./image/jimospa (10).webp",
-  "./image/jimospa (12).webp",
-  "./image/jimospa (11).webp",
-  "./image/jimospa (14).webp",
-  "./image/jimospa (9).webp",
-  "./image/jimospa (8).webp",
-  "./image/jimospa (7).webp",
-  "./image/jimospa (6).webp",
+  "jimospa-hachioji/image/top.webp",
+  "jimospa-hachioji/image/jimospa (3).webp",
+  "jimospa-hachioji/image/jimospa (2).webp",
+  "jimospa-hachioji/image/jimospa (5).webp",
+  "jimospa-hachioji/image/jimospa (10).webp",
+  "jimospa-hachioji/image/jimospa (12).webp",
+  "jimospa-hachioji/image/jimospa (11).webp",
+  "jimospa-hachioji/image/jimospa (14).webp",
+  "jimospa-hachioji/image/jimospa (9).webp",
+  "jimospa-hachioji/image/jimospa (8).webp",
+  "jimospa-hachioji/image/jimospa (7).webp",
+  "jimospa-hachioji/image/jimospa (6).webp",
 ];
 
 const Gallery: React.FC = () => {
