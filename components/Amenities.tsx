@@ -3,12 +3,12 @@ import { AMENITIES } from '../constants';
 
 const ImageSlider: React.FC = () => {
   const sliderImages = [
-    "jimospa-hachioji/image/jimospa (5).webp",
-    "jimospa-hachioji/image/image (1).webp",
-    "jimospa-hachioji/image/image.webp",
-    "jimospa-hachioji/image/image (2).webp",
-    "jimospa-hachioji/image/jimospa (11).webp",
-    "jimospa-hachioji/image/jimospa (12).webp",
+    "/image/jimospa (5).webp",
+    "/image/image (1).webp",
+    "/image/image.webp",
+    "/image/image (2).webp",
+    "/image/jimospa (11).webp",
+    "/image/jimospa (12).webp",
   ];
 
   return (

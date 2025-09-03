@@ -34,37 +34,37 @@ export const FEATURES: FeatureItem[] = [
     icon: <IconWrapper><LocationIcon /></IconWrapper>,
     title: 'JR八王子駅から<br />徒歩2分の好立地',
     description: 'JR八王子駅からたったの2分。重い荷物があっても、雨の日でも安心の駅チカです。集合も買い出しも楽々だから、時間を最大限有効に使って、思う存分パーティーを楽しもう！',
-    imageUrl: 'jimospa-hachioji/image/hachioji.jpg',
+    imageUrl: '/image/hachioji.jpg',
   },
   {
     icon: <IconWrapper><CookingIcon /></IconWrapper>,
     title: 'たこ焼き器や卓上鍋など<br />キッチン＆調理器具完備',
     description: 'たこ焼き器や卓上鍋、チーズフォンデュ鍋、お皿やカトラリーなど、パーティが楽しくなるキッチン設備が充実しています！食材を持ち寄るだけですぐに本格的なおうちごはんが楽しめます。',
-    imageUrl: 'jimospa-hachioji/image/jimospa (10).webp',
+    imageUrl: '/image/jimospa (10).webp',
   },
   {
     icon: <IconWrapper><PuzzleIcon /></IconWrapper>,
     title: '時間を忘れる、<br />10種類以上のボードゲーム',
     description: '会話がもっと弾む、定番から最新まで10種類以上のボードゲームをご用意しました。初めての人も、得意な人も、みんなで笑い合えば、忘れられない思い出になること間違いなし！',
-    imageUrl: 'jimospa-hachioji/image/jimospa (5).webp',
+    imageUrl: '/image/jimospa (5).webp',
   },
   {
     icon: <IconWrapper><FilmIcon /></IconWrapper>,
     title: 'Netflix、U-NEXTが見放題！<br />推し活も映画、スポーツ観戦も。',
     description: 'NetflixとU-NEXTが見放題！気になっていたドラマや映画、推しのライブ映像、プレミアリーグ等も、大好きな仲間と一緒に大画面で楽しめます。',
-    imageUrl: 'jimospa-hachioji/image/netflix.jpg',
+    imageUrl: '/image/netflix.jpg',
   },
   {
     icon: <IconWrapper><TvIcon /></IconWrapper>,
     title: '55型大型テレビで<br />DVD・Blu-rayが見れる',
     description: '55型の大型テレビにDVD/Blu-rayプレイヤーを完備。お気に入りのアーティストのライブディスクや、懐かしい思い出の映像をみんなで鑑賞すれば、盛り上がること間違いなし！',
-    imageUrl: 'jimospa-hachioji/image/tv.png',
+    imageUrl: '/image/tv.png',
   },
   {
     icon: <IconWrapper><ClockIcon /></IconWrapper>,
     title: '24時間営業だから<br />時間を気にせず楽しめる。',
     description: '24時間営業だから、終電を気にせず朝まで語り明かせます。おしゃべりしたり、映画を見たり、ゲームをしたり…。誰にも邪魔されない空間で、思いのままの特別な時間をお過ごしください。',
-    imageUrl: 'jimospa-hachioji/image/jimospa (3).webp',
+    imageUrl: '/image/jimospa (3).webp',
   },
 ];
 
@@ -121,22 +121,22 @@ export const USE_CASES: UseCaseItem[] = [
     {
         title: '女子会・ママ会',
         description: 'おしゃれな空間で、周りを気にせず朝まで語り明かす。子連れママ会でも安心してご利用いただけます。',
-        imageUrl: 'jimospa-hachioji/image/women.png'
+        imageUrl: '/image/women.png'
     },
     {
         title: '誕生日会・記念日',
         description: 'サプライズの飾り付けも自由自在。大切な人との特別な日を、プライベート空間で心ゆくまでお祝いできます。',
-        imageUrl: 'jimospa-hachioji/image/birthday.png'
+        imageUrl: '/image/birthday.png'
     },
     {
         title: '推し活・鑑賞会',
         description: '55型の大型テレビで、ライブDVDや映画を臨場感たっぷりに楽しめます。Netflix、U-NEXTも見放題！',
-        imageUrl: 'jimospa-hachioji/image/movie.png'
+        imageUrl: '/image/movie.png'
     },
     {
         title: 'イベント会場',
         description: 'セミナーや会議、ワークショップなど、様々なイベントにご活用いただけます。',
-        imageUrl: 'jimospa-hachioji/image/event.png'
+        imageUrl: '/image/event.png'
     },
 ];
 
