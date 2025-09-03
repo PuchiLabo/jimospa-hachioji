@@ -17,7 +17,7 @@ const HeroFeature: React.FC<{ children: React.ReactNode; delay: string }> = ({ c
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-[50vh] md:h-screen flex items-center justify-center text-white overflow-hidden">
+    <section className="relative h-[70vh] md:h-screen flex items-center justify-center text-white overflow-hidden">
       {/* Background Image with Ken Burns Effect */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black opacity-60"></div>
