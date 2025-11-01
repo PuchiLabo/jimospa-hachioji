@@ -11,7 +11,7 @@ const FloatingBookingButton: React.FC = () => {
             </p>
           </div>
           <a
-            href="https://spacemarket.com/p/OQhnE-8p054D8q7F"
+            href="https://spacemarket.com/p/RPSEuefMo7vzSH07"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-3 bg-yellow-500 text-gray-900 font-bold text-sm rounded-lg hover:bg-yellow-400 transition-all duration-300 shadow-lg flex-1 justify-center"
