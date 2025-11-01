@@ -48,7 +48,7 @@ const Header: React.FC = () => {
 
           <div className="hidden md:block">
             <a
-              href="https://spacemarket.com/p/RPSEuefMo7vzSH07"
+              href="https://spacemarket.com/p/OQhnE-8p054D8q7F"
               className="px-6 py-2 bg-yellow-500 text-white font-bold rounded-full hover:bg-yellow-600 transition-all duration-300 transform hover:scale-105"
             >
               予約する
@@ -87,7 +87,7 @@ const Header: React.FC = () => {
             </a>
           ))}
           <a
-            href="https://spacemarket.com/p/RPSEuefMo7vzSH07"
+            href="https://spacemarket.com/p/OQhnE-8p054D8q7F"
             onClick={closeMenu}
             className="block w-full text-center px-4 py-3 mt-2 bg-yellow-500 text-white font-bold rounded-md hover:bg-yellow-600"
           >
