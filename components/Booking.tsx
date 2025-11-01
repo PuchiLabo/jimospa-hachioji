@@ -12,7 +12,7 @@ const Booking: React.FC = () => {
           下記ボタンからのご予約で、10%お得にご利用頂けます！
         </p>
         <a
-          href="https://spacemarket.com/p/RPSEuefMo7vzSH07"
+          href="https://spacemarket.com/p/OQhnE-8p054D8q7F"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-10 py-4 bg-yellow-500 text-gray-900 font-bold text-lg rounded-full hover:bg-yellow-400 transition-all duration-300 transform hover:scale-110 shadow-lg"

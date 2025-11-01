@@ -127,7 +127,7 @@ const Chatbot: React.FC = () => {
     if (input.includes('空き状況') || input.includes('空き') || input.includes('確認')) {
       const pageInfo = getPageContent(['予約', '空き', '利用可能']);
       const baseResponse = '空き状況は予約ページでリアルタイムでご確認いただけます。';
-      return pageInfo ? `${baseResponse}\n\n${pageInfo.substring(0, 200)}...\n\nこちらをご覧ください。https://spacemarket.com/p/RPSEuefMo7vzSH07` : `${baseResponse}こちらをご覧ください。https://spacemarket.com/p/RPSEuefMo7vzSH07`;
+      return pageInfo ? `${baseResponse}\n\n${pageInfo.substring(0, 200)}...\n\nこちらをご覧ください。https://spacemarket.com/p/OQhnE-8p054D8q7F` : `${baseResponse}こちらをご覧ください。https://spacemarket.com/p/OQhnE-8p054D8q7F`;
     }
     
     if (input.includes('最大') || input.includes('何人') || input.includes('人数')) {
@@ -151,13 +151,13 @@ const Chatbot: React.FC = () => {
     if (input.includes('料金') || input.includes('価格') || input.includes('値段')) {
       const pageInfo = getPageContent(['料金', '価格', '値段', '費用', 'プラン']);
       const baseResponse = '料金については、ご利用時間によって異なります。詳細な料金は予約ページでご確認いただけます。';
-      return pageInfo ? `${baseResponse}\n\n${pageInfo.substring(0, 200)}...\n\nこちらをご覧ください。https://spacemarket.com/p/RPSEuefMo7vzSH07` : `${baseResponse}こちらをご覧ください。https://spacemarket.com/p/RPSEuefMo7vzSH07`;
+      return pageInfo ? `${baseResponse}\n\n${pageInfo.substring(0, 200)}...\n\nこちらをご覧ください。https://spacemarket.com/p/OQhnE-8p054D8q7F` : `${baseResponse}こちらをご覧ください。https://spacemarket.com/p/OQhnE-8p054D8q7F`;
     }
     
     if (input.includes('予約') || input.includes('利用可能')) {
       const pageInfo = getPageContent(['予約', '申込', 'ご利用', '手続き']);
       const baseResponse = '予約状況は予約ページでリアルタイムでご確認いただけます。';
-      return pageInfo ? `${baseResponse}\n\n${pageInfo.substring(0, 200)}...\n\nこちらをご覧ください。https://spacemarket.com/p/RPSEuefMo7vzSH07` : `${baseResponse}こちらをご覧ください。https://spacemarket.com/p/RPSEuefMo7vzSH07`;
+      return pageInfo ? `${baseResponse}\n\n${pageInfo.substring(0, 200)}...\n\nこちらをご覧ください。https://spacemarket.com/p/OQhnE-8p054D8q7F` : `${baseResponse}こちらをご覧ください。https://spacemarket.com/p/OQhnE-8p054D8q7F`;
     }
     
     if (input.includes('設備') || input.includes('アメニティ')) {
@@ -190,7 +190,7 @@ const Chatbot: React.FC = () => {
     if (input.includes('キャンセル')) {
       const pageInfo = getPageContent(['キャンセル', '取消', '変更', 'ポリシー']);
       const baseResponse = 'キャンセルポリシーについては、予約サイトにてご確認いただけます。';
-      return pageInfo ? `${baseResponse}\n\n${pageInfo.substring(0, 200)}...\n\nhttps://spacemarket.com/p/RPSEuefMo7vzSH07` : `${baseResponse}https://spacemarket.com/p/RPSEuefMo7vzSH07`;
+      return pageInfo ? `${baseResponse}\n\n${pageInfo.substring(0, 200)}...\n\nhttps://spacemarket.com/p/OQhnE-8p054D8q7F` : `${baseResponse}https://spacemarket.com/p/OQhnE-8p054D8q7F`;
     }
 
     // 新しい参照データベースの回答システム
@@ -332,7 +332,7 @@ const Chatbot: React.FC = () => {
     }
 
     // マッチしない場合は従来のフォールバック
-    return 'お探しの情報は見つかりませんでした。恐れ入りますが、予約サイトのお問い合わせよりお問い合わせをお願い致します。予約サイトはこちら→https://spacemarket.com/p/RPSEuefMo7vzSH07';
+    return 'お探しの情報は見つかりませんでした。恐れ入りますが、予約サイトのお問い合わせよりお問い合わせをお願い致します。予約サイトはこちら→https://spacemarket.com/p/OQhnE-8p054D8q7F';
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
